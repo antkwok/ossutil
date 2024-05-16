@@ -1,0 +1,7 @@
+services:
+  aliyunossutil64:
+    # build:
+    #   context: .
+    image: antkwok/ossutil:v1.0.0
+    container_name: aliyunossutil64
+    entrypoint: ["tail", "-f", "/dev/null"]
